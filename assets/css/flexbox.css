@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  height: 120px;
+}
+
+.container__LogoMidias{
+  display: flex;
+  justify-content: space-between;
+  width: 2000px;
+  background-color: #ce315b;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.logo p{
+  font-family: 'Indie Flower', cursive;
+  font-size: 4em;
+  color: white;
+  padding-right: 10px;
+  padding-top: 45px;
+  align-items: center;
+}
+
+.midias_sociais{
+  display: flex;
+  align-items: center;
+}
+
+.midias_sociais nav ul{
+  display: flex;
+  
+}
+
+.midias_sociais nav ul li{
+  list-style: none;
+  padding: 15px;
+}
+
+#banner{
+  display: flex;
+  background-image: url(../img/gato.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 809px;
+}
+
+#banner > .container{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#banner > .container h1{
+  color: white;
+  font-size: 6em;
+  padding-left: 30px;
+  margin: 0;
+  text-shadow: 0px 1px 0px black;
+}
+#banner > .container h2{
+  color: white;
+  font-family: 'Caveat', cursive;
+  font-size: 2em;
+  padding-left: 30px;
+  margin: 0;
+  text-shadow: 0px 1px 0px black;
+}
+
+
+.caracteristicas{
+  background-color: #ce315b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+  text-align: center;
+}
+
+.caracteristicas h2 {
+  font-size: 5rem;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.caracteristicas p {
+  font-size: 1.5em;
+  max-width: 800px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.caracteristicas hr {
+  width: 400px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 70px;
+  border: none;
+}
+
+
+.caracteristicas .grid {
+  width: 100%;
+  display: flex;
+}
+
+.caracteristicas .grid li {
+  padding: 0 30px;
+  text-align: center;
+  list-style: none;
+}
+
+.caracteristicas .grid li i {
+  color: #c3c63b;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+
+.caracteristicas .grid li h4 {
+  font-size: 1.5rem;
+  color: #c3c63b;
+  margin-bottom: 30px;
+}
+
+.caracteristicas .grid li p {
+  color: #fff;
+}
+
+/* configuração conteúdo_01 informações */
+
+.conteudo_01 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.conteudo_01 h2{
+
+  font-size: 5rem;
+  margin-bottom: 35px;
+  line-height: 45px;
+  margin: 20px 0;
+}
+
+.texto_01{
+  padding: 200px 80px;
+  /* background-color: #fad4e7; */
+}
+
+.texto_01 p{
+  font-size: 1.5em;
+  max-width: 800px;
+  margin: 50px;
+}
+
+.conteudo_img_01{
+  height: 800px;
+  background-image: url('../img/gato_02.jpg');
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+/* configurações conteúdo_02 informações */
+
+.conteudo_02 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.conteudo_02 h2{
+
+  font-size: 5rem;
+  margin-bottom: 35px;
+  line-height: 45px;
+  margin: 20px 0;
+}
+
+.texto_02{
+  padding: 200px 80px;
+  /* background-color: #fad4e7; */
+}
+
+.texto_02 p{
+  font-size: 1.5em;
+  max-width: 800px;
+  margin: 50px;
+}
+
+.conteudo_img_02{
+  height: 800px;
+  background-image: url('../img/cachorro.jpg');
+  background-size: cover;
+  background-position: top;
+  background-size: cover;
+}
+
+footer{
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer span{
+  font-family: 'Smooch', cursive;
+  font-size: 2em;
+}
+
+/* configuração botão leia mais */
+
+.btn{
+  border: 2px solid #454545;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 3px;
+  color: #454545;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.btn > a:hover{
+  background-color: #ce315b;
+}
+
